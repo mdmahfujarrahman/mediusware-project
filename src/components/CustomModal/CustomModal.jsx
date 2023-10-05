@@ -25,14 +25,14 @@ const CustomModal = ({
             <Modal.Body>
                 <div className="d-flex justify-content-between">
                     <button
-                        className="btn btn-lg btn-outline-primary"
+                        className="btn btn-lg btn-outline-primary btnA"
                         type="button"
                         onClick={() => handleModal("Modal A")}
                     >
                         All Contacts
                     </button>
                     <button
-                        className="btn btn-lg btn-outline-warning"
+                        className="btn btn-lg btn-outline-warning btnB"
                         type="button"
                         onClick={() => handleModal("Modal B")}
                     >
@@ -69,7 +69,7 @@ const CustomModal = ({
                     </label>
                 </div>
                 <button
-                    className="btn btn-lg btn-outline-danger"
+                    className="btn btn-lg btn-outline-danger closeBtn"
                     type="button"
                     onClick={handleClose}
                 >

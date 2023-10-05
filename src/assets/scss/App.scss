@@ -1,3 +1,13 @@
 @import "abstract/variables";
 @import 'bootstrap/scss/bootstrap.scss';
 @import "abstract/base";
+
+.btnA {
+    color: $primary;
+}
+.btnB {
+    color: $secondary;
+}
+.closeBtn{
+    border-color: $primary;
+}
